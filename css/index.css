@@ -1,0 +1,46 @@
+@import url('../css/header.css');
+@import url('../css/awesome.css');
+@import url('../css/footer.css');
+
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+}
+
+h2{
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+h3{
+  font-size: 20px;
+
+}
+
+.awsome__title{
+  text-align: center;
+  margin-bottom: 68px;
+}
+
+.awsome__title p{
+  font-size: 19px;
+  color: #86878B
+}
+
+
+.line{
+  width: 64px;
+  height: 2px;
+  margin: 34px auto 34px;
+  background-color: #E72424;
+}
