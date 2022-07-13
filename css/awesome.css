@@ -1,4 +1,4 @@
-.awesome__wrap {
+#awesome {
  padding: 80px 0 116px;
 }
 
@@ -22,11 +22,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} 
 
 
 #card__title{
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  font-weight: 700;
   text-transform: capitalize;
   color: #333333;
   margin: 30px 0 16px
@@ -37,6 +39,7 @@
 }
 
 .description {
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin-bottom: 20px;
+  font-weight: 400;
 }

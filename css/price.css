@@ -1,0 +1,33 @@
+.price__warp{
+  margin: auto;
+}
+.price__card{
+  width: 340px;
+}
+
+.option {
+  text-align: center;
+}
+
+li{
+  margin-bottom: 2px;
+  
+}
+
+.rate{
+background-color: #333333;
+height: 50px;
+color: #ffffff;
+}
+
+.sum{
+background-color: #333333;
+height: 100px;
+color: #ffffff;
+}
+
+.free{
+background-color: #333333;
+height: 50px;
+color: #ffffff;
+}
