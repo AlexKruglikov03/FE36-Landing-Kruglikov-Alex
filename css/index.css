@@ -3,6 +3,8 @@
 @import url('../css/footer.css');
 @import url('../css/price.css');
 @import url('../css/import.css');
+@import url('../css/reviews.css');
+@import url('../css/axure.css');
 
 *{
   padding: 0;
@@ -21,6 +23,8 @@ html{
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  position: relative;
+  z-index: 1;
 }
 
 h2{
@@ -29,6 +33,15 @@ h2{
   font-weight: 400;
   text-transform: uppercase;
   color: #212121;
+}
+
+h2::after{
+  display: block;
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color: #E72424;
+  margin: 35px auto 35px;
 }
 
 h3{
@@ -46,12 +59,4 @@ h3{
   font-size: 14px;
   font-weight: 400;
   color: #86878B
-}
-
-
-.line{
-  width: 64px;
-  height: 2px;
-  margin: 34px auto 34px;
-  background-color: #E72424;
 }

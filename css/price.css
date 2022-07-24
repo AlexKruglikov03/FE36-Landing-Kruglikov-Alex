@@ -12,8 +12,6 @@
 
 .price__card{
   width: 340px;
-  display: flex;
-  flex-direction: column;
   text-align: center;
   margin: 0px 15px 15px;
   

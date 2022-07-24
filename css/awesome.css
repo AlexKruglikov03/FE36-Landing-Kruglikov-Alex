@@ -25,7 +25,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
 } 
+
+.card_image:hover{
+  background-color: rgba(0, 0, 0, 0.3);
+}
 
 
 #card__title{

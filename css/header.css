@@ -1,0 +1,45 @@
+#header{
+  background-color: #000000;
+  width: 100%;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.logo{
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  color: #fff;
+  margin-right: 50px;
+}
+
+#IT{
+  color: #EC7979;
+}
+
+.header__wrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navigation{
+  text-align: center;
+  display: flex;
+  
+}
+
+.navigation__item{
+  text-transform: capitalize;
+  color: #FFFFFFB2;
+  margin-right: 50px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  
+ 
+}
