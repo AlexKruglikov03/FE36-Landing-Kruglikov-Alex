@@ -29,7 +29,8 @@
 } 
 
 .card_image:hover{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #cb99fe3a;
+  box-shadow: 0 0 15px #ffa600b0;
 }
 
 
