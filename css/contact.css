@@ -1,0 +1,81 @@
+#contact{
+  padding: 50px 0 50px;
+}
+
+#inform__content{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.user-inform{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+
+.inform__label{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+  text-transform: capitalize;
+}
+
+
+.user-inform input{
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 40px;
+  padding: 5px 0 0 5px;
+}
+
+.message{
+  width: 40%;
+}
+
+.message__label{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(189, 189, 189, 1);
+  text-transform: capitalize;
+}
+
+.message textarea{
+  width: 100%;
+  height: 78%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 1px solid rgba(189, 189, 189, 1);
+  resize: none;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 5px 0 0 5px;
+}
+
+#inform__button{
+  display: block;
+  border: none;
+  margin: auto;
+  width: 165px;
+  height: 45px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(236, 121, 121, 1);
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#inform__button:hover{
+  background-color: rgba(236, 121, 121, 0.8);
+  color: black;
+}
+

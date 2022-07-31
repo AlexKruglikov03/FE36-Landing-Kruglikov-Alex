@@ -14,8 +14,18 @@
 .price__card{
   width: 340px;
   text-align: center;
-  margin: 0px 15px 15px;
+  margin: 0px 15px;
   box-shadow: 0 0 20px;
+  transition: 0.2s;
+}
+
+.price__card:hover{
+  transform: scale(1.05);
+}
+
+.price__card--sum:hover{
+  color: rgba(255, 0, 0, 0.8);
+  transition: 1s;
 }
 
 .price__card *{

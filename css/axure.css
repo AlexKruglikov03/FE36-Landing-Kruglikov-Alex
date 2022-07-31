@@ -62,7 +62,10 @@
     background: none;
   }
 
-  a{
+  .dwnld{
+    display: block;
+    width: 135px;
+    height: 45px;
     text-decoration: none;
     color: inherit;
   }

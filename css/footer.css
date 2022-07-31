@@ -25,37 +25,45 @@
   margin-bottom: 10px;
   font-size: 20px;
   color: #ffffff80;
-}
- 
-.footer__wrap div{
-  margin-right: 15px;
+  transition: 0.2s;
 }
 
-.footer__wrap div:last-child{
-  margin-right: 0px;
+.footer__wrap i{
+  transform: rotate(-360deg);
+  transition: 1s;
 }
 
 .footer__facebook i:hover{
   font-size: 20px;
   text-shadow: none;
+  transform: rotate(360deg);
+  transition: 3s;
 }
 
 .footer__twitter i:hover{
   font-size: 20px;
   text-shadow: none;
+  transform: rotate(360deg);
+  transition: 3s;
 }
 
 .footer__googleplus i:hover{
   font-size: 20px;
   text-shadow: none;
+  transform: rotate(360deg);
+  transition: 3s;
 }
 
 .footer__instagram i:hover{
   font-size: 20px;
   text-shadow: none;
+  transform: rotate(360deg);
+  transition: 3s;
 }
 
 .footer__rss i:hover{
   font-size: 20px;
   text-shadow: none;
+  transform: rotate(360deg);
+  transition: 3s;
 }

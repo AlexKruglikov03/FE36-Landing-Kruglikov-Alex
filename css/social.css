@@ -35,38 +35,38 @@
 
 .social__icons div{
   width: 50px;
-  margin-right: 15px;
   text-align: center;
-}
-
-.social__icons div:last-child{
-  margin-right: 0px;
 }
 
 .fa-facebook-f:hover{
   color: #3b6dd9;
   font-size: 45px;
   text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
 }
 
 .fa-twitter:hover {
   color: #00acee;
   font-size: 45px;
   text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
 }
 .fa-google-plus-g:hover {
   color: #d41818e6;
   font-size: 45px;
   text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
 }
 .fa-instagram:hover {
   color: #3a7c14ad;
   font-size: 45px;
   text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
 }
 
 .fa-rss:hover {
   color: orange;
   font-size: 45px;
   text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
 }
