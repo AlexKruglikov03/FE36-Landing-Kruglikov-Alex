@@ -1,15 +1,18 @@
-.awesome__wrap {
- padding: 80px 0 116px;
+#awesome {
+ padding: 50px 0 50px;
 }
 
 .awesome__inner {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  
 }
 
 .card {
   width: 350px;
   text-align: center;
+  margin: 0px 15px;
 }
 
 .card_image {
@@ -22,11 +25,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: 0.3s;
+} 
+
+.card_image:hover{
+  background-color: #cb99fe3a;
+  box-shadow: 0 0 15px #ffa600b0;
 }
 
 
 #card__title{
+  font-family: 'Open Sans', sans-serif;
   font-size: 20px;
+  font-weight: 700;
   text-transform: capitalize;
   color: #333333;
   margin: 30px 0 16px
@@ -37,6 +48,9 @@
 }
 
 .description {
+  font-family: 'Open Sans', sans-serif;
   font-size: 14px;
-  margin-bottom: 20px;
+  font-weight: 400;
 }
+
+

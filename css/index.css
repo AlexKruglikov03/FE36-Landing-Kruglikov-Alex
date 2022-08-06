@@ -1,6 +1,15 @@
 @import url('../css/header.css');
+@import url('../css/main.css');
+@import url('../css/social.css');
+@import url('../css/tabs.css');
 @import url('../css/awesome.css');
+@import url('../css/price.css');
+@import url('../css/import.css');
+@import url('../css/reviews.css');
+@import url('../css/axure.css');
+@import url('../css/contact.css');
 @import url('../css/footer.css');
+
 
 *{
   padding: 0;
@@ -10,16 +19,45 @@
   box-sizing: border-box;
 }
 
+a{
+  color: inherit;
+}
+
+html{
+  font-family: 'Open Sans', 'Raleway', sans-serif;
+}
+
 .container{
   max-width: 1170px;
   padding: 0 15px;
   margin: auto;
+  position: relative;
+  z-index: 1;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 h2{
+  font-family: 'Raleway', sans-serif;
   font-size: 36px;
+  font-weight: 400;
   text-transform: uppercase;
   color: #212121;
+}
+
+h2::after{
+  display: block;
+  content: '';
+  width: 64px;
+  height: 2px;
+  background-color: #E72424;
+  margin: 35px auto 35px;
 }
 
 h3{
@@ -27,20 +65,131 @@ h3{
 
 }
 
-.awsome__title{
+.subtitle{
   text-align: center;
   margin-bottom: 68px;
 }
 
-.awsome__title p{
-  font-size: 19px;
+.subtitle p{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
   color: #86878B
 }
 
+@media (max-width:1169px){
+  .card{
+    margin-bottom: 30px;
+  }
+}
 
-.line{
-  width: 64px;
-  height: 2px;
-  margin: 34px auto 34px;
-  background-color: #E72424;
+@media (max-width:1109px){
+  .price__card{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width:1032px){
+  .navigation__item{
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width:1004px){
+  .review__card{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width:952px){
+  body{
+    font-size: 0.85em;
+  }
+  .navigation__item{
+    font-size: 0.85em;
+  }
+
+  #tabs{
+    padding: 25px 0 25px;
+  }
+
+  #awesome{
+    padding: 25px 0 25px;
+  }
+
+  #price{
+    padding: 25px 0 25px;
+  }
+
+  #review{
+    padding: 25px 0 25px;
+  }
+}
+
+@media (max-width:922px){
+  #main{
+    padding: 20px 0;
+  }
+
+  .main__wrap{
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .main__content{
+    text-align: center;
+  }
+
+  h1::after{
+    margin: 30px auto 30px;
+  }
+
+  .main__content p{
+    margin: auto;
+  }
+
+  #main__btm{
+    margin: 30px auto 30px;
+  }
+
+  nav{
+    position: absolute;
+    top: -100%;
+    right: -100%;
+  }
+
+  .header__wrap{
+    justify-content: center;
+  }
+
+  .logo{
+    margin: 0px;
+  }
+
+  #header{
+    position: sticky
+  }
+
+  .main__form{
+    padding: 10px 0 0 0;
+    width: 300px;
+    height: 250px;
+  }
+
+  .main__form p{
+    font-size: 16px;
+  }
+
+  .main__form form{
+    margin-top: 10px;
+  }
+
+  .main__form form button{
+    width: 150px;
+    height: 40px;
+    position: absolute;
+    left: 25%;
+    bottom: 5px;
+    border-radius: 30px;
+  }
 }

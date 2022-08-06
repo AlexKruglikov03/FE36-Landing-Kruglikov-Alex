@@ -1,0 +1,72 @@
+#social{
+  padding: 15px 0 15px;
+  background-color: #F8EFEF;
+}
+
+.social__wrap{
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__title{
+  width: 50%;
+  margin-right: 15px;
+}
+
+#soc-tit{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #333333;
+  margin-bottom: 15px;
+}
+
+.social__icons{
+  width: 40%;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.2s;
+  color: #333333;
+  flex-wrap: wrap;
+}
+
+.social__icons div{
+  width: 50px;
+  text-align: center;
+}
+
+.fa-facebook-f:hover{
+  color: #3b6dd9;
+  font-size: 45px;
+  text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
+}
+
+.fa-twitter:hover {
+  color: #00acee;
+  font-size: 45px;
+  text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
+}
+.fa-google-plus-g:hover {
+  color: #d41818e6;
+  font-size: 45px;
+  text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
+}
+.fa-instagram:hover {
+  color: #3a7c14ad;
+  font-size: 45px;
+  text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
+}
+
+.fa-rss:hover {
+  color: orange;
+  font-size: 45px;
+  text-shadow: 15px 15px 10px #000000a2;
+  transition: 0.3s;
+}
